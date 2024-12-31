@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Protein Recipes</title>
+    <style>/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ecf0f1;
+}
+
+main {
+    padding: 30px;
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Recipe card styles */
+.recipe {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+}
+
+.recipe:hover {
+    transform: translateY(-10px);
+}
+
+.recipe:hover img {
+    opacity: 0.8;
+}
+
+.recipe h3 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.recipe p {
+    font-size: 1em;
+    color: #7f8c8d;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 1.1em;
+    }
+
+    .recipe {
+        padding: 10px;
+    }
+
+    .recipe h3 {
+        font-size: 1.6em;
+    }
+
+    .recipe p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        font-size: 1em;
+    }
+
+    .recipe h3 {
+        font-size: 1.4em;
+    }
+
+    .recipe p {
+        font-size: 0.85em;
+    }
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>High Protein Recipes</h1>
+        <p>Delicious and nutritious recipes for snacks, breakfast, lunch, and guilt-free sweets!</p>
+    </header>
+    <nav>
+        <a href="#snacks">Snacks</a>
+        <a href="#breakfast">Breakfast</a>
+        <a href="#lunch">Lunch</a>
+        <a href="#sweets">Sugarless Sweets</a>
+    </nav>
+    <main>
+        <section id="snacks">
+            <h2>High Protein Snacks</h2>
+            <div class="recipe">
+                <h3>Protein Bars</h3>
+                <img src="https://i.postimg.cc/Z5xr2HSg/protein-bar.jpg" alt="Protein Bars">
+                <p>Ingredients: Oats, peanut butter, protein powder, honey.</p>
+                <p>Steps: Mix all ingredients, press into a pan, refrigerate, and cut into bars.</p>
+                <p>Serving Size: 1 bar | Protein: 12g | Calories: 200</p>
+            </div>
+            <div class="recipe">
+                <h3>Roasted Chickpeas</h3>
+                <img src="https://i.postimg.cc/bvMdBSsW/Roasted-Chickpeas-Recipe-9.jpg" alt="Roasted Chickpeas">
+                <p>Ingredients: Chickpeas, olive oil, spices of choice.</p>
+                <p>Steps: Toss chickpeas with oil and spices, bake at 400°F until crispy.</p>
+                <p>Serving Size: 1/2 cup | Protein: 15g | Calories: 180</p>
+            </div>
+            <div class="recipe">
+                <h3>Edamame with Sea Salt</h3>
+                <img src="https://i.postimg.cc/5ym4bX2x/organic-green-edamame-beans-with-sea-salt-2-G54-MEK.jpg" alt="Edamame with Sea Salt">
+                <p>Ingredients: Edamame, sea salt.</p>
+                <p>Steps: Steam edamame and sprinkle with sea salt before serving.</p>
+                <p>Serving Size: 1 cup | Protein: 18g | Calories: 190</p>
+            </div>
+            <div class="recipe">
+                <h3>Nut Butter Apple Slices</h3>
+                <img src="https://i.postimg.cc/GtbR7bJ6/OIP.jpg">
+                <p>Ingredients: Apple slices, almond or peanut butter.</p>
+                <p>Steps: Spread nut butter on apple slices and enjoy.</p>
+                <p>Serving Size: 1 apple | Protein: 7g | Calories: 150</p>
+            </div>
+            <div class="recipe">
+                <h3>Masala Sprouts</h3>
+                <img src="https://i.postimg.cc/cCkzRWDR/download.jpg" alt="Masala Sprouts">
+                <p>Ingredients: Green gram sprouts, chopped onions, tomatoes, green chilies, lemon juice, spices.</p>
+                <p>Steps: Mix sprouts with veggies and spices, squeeze lemon juice, and serve fresh.</p>
+                <p>Serving Size: 1 cup | Protein: 14g | Calories: 170</p>
+            </div>
+        </section>
+        <section id="breakfast">
+            <h2>High Protein Breakfast</h2>
+            <div class="recipe">
+                <h3>Greek Yogurt Parfait</h3>
+                <img src="https://i.postimg.cc/JzRSXT44/OIP-1.jpg" alt="Greek Yogurt Parfait">
+                <p>Ingredients: Greek yogurt, granola, fresh fruits, honey.</p>
+                <p>Steps: Layer yogurt, granola, and fruits in a glass, drizzle with honey.</p>
+                <p>Serving Size: 1 cup | Protein: 20g | Calories: 250</p>
+            </div>
+            <div class="recipe">
+                <h3>Scrambled Eggs with Veggies</h3>
+                <img src="https://i.postimg.cc/T1KzHh57/OIP-2.jpg" alt="Scrambled Eggs with Veggies">
+                <p>Ingredients: Eggs, bell peppers, spinach, cheese.</p>
+                <p>Steps: Saute veggies, add beaten eggs, cook until done, top with cheese.</p>
+                <p>Serving Size: 2 eggs | Protein: 15g | Calories: 220</p>
+            </div>
+            <div class="recipe">
+                <h3>Protein Pancakes</h3>
+                <img src="https://i.postimg.cc/bYKYfjYD/download-1.jpg" alt="Protein Pancakes">
+                <p>Ingredients: Protein powder, oats, banana, eggs.</p>
+                <p>Steps: Blend all ingredients, pour batter onto a hot skillet, cook, and flip.</p>
+                <p>Serving Size: 2 pancakes | Protein: 25g | Calories: 300</p>
+   
+            <div class="recipe">
+                <h3>Moong Dal Chilla</h3>
+                <img src="https://i.postimg.cc/vT7NK9Hv/download-3.jpg" alt="Moong Dal Chilla">
+                <p>Ingredients: Moong dal, green chilies, ginger, spices, oil.</p>
+                <p>Steps: Blend soaked moong dal into a batter, add spices, cook on a skillet like pancakes.</p>
+                <p>Serving Size: 1 chilla | Protein: 12g | Calories: 150</p>
+            </div>
+        </section>
+        <section id="lunch">
+            <h2>High Protein Lunch</h2>
+            <div class="recipe">
+                <h3>Grilled Chicken Salad</h3>
+                <img src="https://i.postimg.cc/R0nG8fgn/download-4.jpg" alt="Grilled Chicken Salad">
+                <p>Ingredients: Grilled chicken, mixed greens, avocado, cherry tomatoes, vinaigrette.</p>
+                <p>Steps: Toss all ingredients together, drizzle with vinaigrette.</p>
+                <p>Serving Size: 1 bowl | Protein: 35g | Calories: 400</p>
+            </div>
+            <div class="recipe">
+                <h3>Quinoa Bowl</h3>
+                <img src="https://i.postimg.cc/rzXq15ZC/download-5.jpg" alt="Quinoa Bowl">
+                <p>Ingredients: Quinoa, black beans, grilled vegetables, salsa, Greek yogurt.</p>
+                <p>Steps: Assemble all ingredients in a bowl, top with salsa and yogurt.</p>
+                <p>Serving Size: 1 bowl | Protein: 22g | Calories: 350</p>
+            </div>
+            <div class="recipe">
+                <h3>Baked Salmon with Asparagus</h3>
+                <img src="https://i.postimg.cc/fLdzJHBT/OIP-3.jpg" alt="Baked Salmon with Asparagus">
+                <p>Ingredients: Salmon fillet, asparagus, olive oil, lemon.</p>
+                <p>Steps: Place salmon and asparagus on a baking sheet, drizzle with oil and lemon, bake at 375°F until cooked.</p>
+                <p>Serving Size: 1 fillet | Protein: 40g | Calories: 420</p>
+            </div>
+            <div class="recipe">
+                <h3>Turkey Wraps</h3>
+                <img src="https://i.postimg.cc/x8Y2q9Xt/download-6.jpg" alt="Turkey Wraps">
+                <p>Ingredients: Whole-grain tortilla, turkey slices, lettuce, hummus.</p>
+                <p>Steps: Spread hummus on tortilla, layer with turkey and lettuce, roll tightly.</p>
+                <p>Serving Size: 1 wrap | Protein: 25g | Calories: 300</p>
+            </div>
+            <div class="recipe">
+                <h3>Paneer Bhurji</h3>
+                <img src="https://i.postimg.cc/bw44sqMk/OIP-4.jpg" alt="Paneer Bhurji">
+                <p>Ingredients: Paneer, onions, tomatoes, green chilies, spices.</p>
+                <p>Steps: Crumble paneer, saute with veggies and spices until cooked.</p>
+                <p>Serving Size: 1 cup | Protein: 20g | Calories: 220</p>
+            </div>
+        </section>
+             <section id="sweets">
+            <h2>Sugarless Guilt-Free Sweets</h2>
+            <div class="recipe">
+                <h3>Chia Seed Pudding</h3>
+                <img src="https://i.postimg.cc/k5VWGm8r/download-7.jpg" alt="Chia Seed Pudding">
+                 <p>Ingredients: Chia seeds, almond milk, vanilla extract, honey or maple syrup (optional).</p>
+                <p>Steps: Mix chia seeds with almond milk and vanilla, let sit for 30 minutes or overnight in the fridge. Sweeten if desired.</p>
+                <p>Serving Size: 1 cup | Protein: 10g | Calories: 150</p>
+            </div>
+            <div class="recipe">
+                <h3>Peanut Butter Energy Balls</h3>
+                <img src="https://i.postimg.cc/dtPBkLtq/download-8.jpg" alt="Peanut Butter Energy Balls">
+                <p>Ingredients: Peanut butter, oats, honey, chocolate chips, flaxseeds.</p>
+                <p>Steps: Mix all ingredients, form into balls, and chill until firm.</p>
+                <p>Serving Size: 1 ball | Protein: 5g | Calories: 100</p>
+            </div>
+            <div class="recipe">
+                <h3>Avocado Chocolate Mousse</h3>
+                <img src="https://i.postimg.cc/8zkLMW8V/download-9.jpg" alt="Avocado Chocolate Mousse">
+                <p>Ingredients: Ripe avocados, cocoa powder, honey or maple syrup.</p>
+                <p>Steps: Blend all ingredients until smooth, refrigerate for 30 minutes before serving.</p>
+                <p>Serving Size: 1/2 cup | Protein: 4g | Calories: 200</p>
+            </div>
+            <div class="recipe">
+                <h3>Protein Brownies</h3>
+                <img src="https://i.postimg.cc/8zkLMW8V/download-9.jpg" alt="Protein Brownies">
+                <p>Ingredients: Black beans, cocoa powder, protein powder, honey.</p>
+                <p>Steps: Blend all ingredients, pour into a baking dish, bake at 350°F for 20-25 minutes.</p>
+                <p>Serving Size: 1 brownie | Protein: 8g | Calories: 120</p>
+            </div>
+            <div class="recipe">
+                <h3>Coconut Macaroons</h3>
+                <img src=https://i.postimg.cc/DzFHqxvw/OIP-5.jpg alt="Coconut Macaroons">
+                <p>Ingredients: Shredded coconut, egg whites, honey, vanilla extract.</p>
+                <p>Steps: Mix all ingredients, form into mounds, bake at 325°F for 15-20 minutes until golden.</p>
+                <p>Serving Size: 1 macaroon | Protein: 2g | Calories: 80</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 High Protein Recipes. All rights reserved.</p>
+        <!-- <p>Follow us on <a href="#" style="color: #fff;">Instagram</a> | <a href="#" style="color: #fff;">Facebook</a></p> -->
+    </footer>
+</body>
+</html>
